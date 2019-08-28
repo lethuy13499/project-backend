@@ -1,0 +1,2 @@
+C:\Users\pc\Desktop\source-code\TestingOnlineSystemGDP7\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\source-code\TestingOnlineSystemGDP7\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
