@@ -1,0 +1,17 @@
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\Model.dll.config
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\Model.dll
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\Model.pdb
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\EntityFramework.dll
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\System.Web.Http.dll
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\EntityFramework.xml
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\System.Web.Http.xml
+C:\Users\Lab06\Desktop\project\project-backend\Model\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Lab06\Desktop\project\project-backend\Model\obj\Debug\Model.dll
+C:\Users\Lab06\Desktop\project\project-backend\Model\obj\Debug\Model.pdb

@@ -61,9 +61,7 @@ namespace Repository
                 Phone = user.Phone,
                 Email = user.Email,
                 Address = user.Address,
-                
                 Avatar = user.Avatar,
-              
                 Status = user.Status
             });
             return context.SaveChanges();

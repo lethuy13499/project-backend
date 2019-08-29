@@ -103,14 +103,7 @@ namespace Repository
         {
             var result = context.Users.Where(s => s.UserGroups.Where(x => x.GroupId == id).Count() > 0);
             //var result2=context.UserGroups.Where(s=>s.CreatedOn==model.AddedEndDate)
-            if (model.Position != null)
-            {
-                result = result.Where(s => s.Position == model.Position);
-            }
-            if (model.Department != null)
-            {
-                result = result.Where(s => s.Department == model.Department);
-            }
+           
             return result;
         }
 
