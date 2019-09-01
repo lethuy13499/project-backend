@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Model
 {
   
-    public class Category
+    public class Sliders
     {
 
         [Key]

@@ -1,4 +1,8 @@
-﻿using System;
+using DataAccessLayer;
+using Model;
+using Repository;
+using Repository.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +10,47 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    class CategoryService 
+  public class CategoryService : Interfaces.IServices<Sliders>
 
+  {
+    private IRepository<Sliders> repository;
+    public CategoryService()
     {
+      repository = new CategoryRepository(new DBEntityContext());
     }
+    public int Delete(int id)
+    {
+      return repository.Delete(id);
+    }
+
+    public IEnumerable<Sliders> Filter(Sliders t)
+    {
+      throw new NotImplementedException();
+    }
+
+    public IEnumerable<Sliders> GetAll()
+    {
+      return repository.GetAll(); 
+    }
+
+    public Sliders GetById(int id)
+    {
+      return repository.GetById(id);
+    }
+
+    public int Insert(Sliders t)
+    {
+      return repository.Insert(t);
+    }
+
+    public IEnumerable<Sliders> Search(string searchString)
+    {
+      return repository.Search(searchString);
+    }
+
+    public int Update(Sliders t)
+    {
+      return repository.Update(t);
+    }
+  }
 }

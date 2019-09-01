@@ -24,10 +24,10 @@ namespace DataAccessLayer
 
         public virtual DbSet<Role> Roles { get; set; }
         public virtual DbSet<RoleAction> RoleActions { get; set; }
-        public virtual DbSet<Category> Categorys { get; set; }
+        public virtual DbSet<Sliders> Categorys { get; set; }
         public virtual DbSet<Product> Products { get; set; }
-        public virtual DbSet<Slider> Sliders { get; set; }
-        public virtual DbSet<Orders> Orders { get; set; }
+        public virtual DbSet<Sliders> Sliders { get; set; }
+        public virtual DbSet<Orders> Order { get; set; }
         public virtual DbSet<OrderDetail> OrderDetails { get; set; }
 
         public virtual DbSet<User> Users { get; set; }

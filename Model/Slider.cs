@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-   public class Slider
+   public class Sliders
     {
 
         [Key]

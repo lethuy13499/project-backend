@@ -9,3 +9,17 @@ C:\Users\Lab06\Desktop\project\project-backend\DataAccessLayer\bin\Debug\EntityF
 C:\Users\Lab06\Desktop\project\project-backend\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
 C:\Users\Lab06\Desktop\project\project-backend\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\Lab06\Desktop\project\project-backend\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\bin\Debug\Model.dll
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\bin\Debug\Model.pdb
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\bin\Debug\Model.dll.config
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\pc\Pictures\code\project-backend\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
