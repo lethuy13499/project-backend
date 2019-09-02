@@ -24,7 +24,7 @@ namespace DataAccessLayer
 
         public virtual DbSet<Role> Roles { get; set; }
         public virtual DbSet<RoleAction> RoleActions { get; set; }
-        public virtual DbSet<Sliders> Categorys { get; set; }
+        public virtual DbSet<Category> Categorys { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Sliders> Sliders { get; set; }
         public virtual DbSet<Orders> Order { get; set; }

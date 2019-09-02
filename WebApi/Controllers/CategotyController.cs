@@ -67,8 +67,8 @@ namespace WebApi.Controllers
       {
         if (value != null)
         {
-          var question = JsonConvert.DeserializeObject<Sliders>(value.ToString());
-          result.Success = service.Insert(question);
+          var user = JsonConvert.DeserializeObject<Category>(value.ToString());
+          result.Success = service.Insert(user);
           return JsonConvert.SerializeObject(result);
         }
       }
@@ -89,8 +89,8 @@ namespace WebApi.Controllers
       {
         if (value != null)
         {
-          var category = JsonConvert.DeserializeObject<Sliders>(value.ToString().Trim());
-          category.CategoryId = id;
+          var category = JsonConvert.DeserializeObject<Category>(value.ToString().Trim());
+          category.UserId = id;
           result.Success = service.Update(category);
           return JsonConvert.SerializeObject(result);
         }

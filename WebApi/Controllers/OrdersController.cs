@@ -65,8 +65,8 @@ namespace WebApi.Controllers
       {
         if (value != null)
         {
-          var question = JsonConvert.DeserializeObject<Sliders>(value.ToString());
-          result.Success = service.Insert(question);
+          //var user = JsonConvert.DeserializeObject<Sliders>(value.ToString());
+          //result.Success = service.Insert(user);
           return JsonConvert.SerializeObject(result);
         }
       }

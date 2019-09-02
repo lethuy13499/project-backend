@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-  public class CategoryService : Interfaces.IServices<Sliders>
+  public class CategoryService : Interfaces.IServices<Category>
 
   {
-    private IRepository<Sliders> repository;
+    private IRepository<Category> repository;
     public CategoryService()
     {
       repository = new CategoryRepository(new DBEntityContext());
@@ -23,32 +23,32 @@ namespace Services
       return repository.Delete(id);
     }
 
-    public IEnumerable<Sliders> Filter(Sliders t)
+    public IEnumerable<Category> Filter(Category t)
     {
       throw new NotImplementedException();
     }
 
-    public IEnumerable<Sliders> GetAll()
+    public IEnumerable<Category> GetAll()
     {
       return repository.GetAll(); 
     }
 
-    public Sliders GetById(int id)
+    public Category GetById(int id)
     {
       return repository.GetById(id);
     }
 
-    public int Insert(Sliders t)
+    public int Insert(Category t)
     {
       return repository.Insert(t);
     }
 
-    public IEnumerable<Sliders> Search(string searchString)
+    public IEnumerable<Category> Search(string searchString)
     {
       return repository.Search(searchString);
     }
 
-    public int Update(Sliders t)
+    public int Update(Category t)
     {
       return repository.Update(t);
     }

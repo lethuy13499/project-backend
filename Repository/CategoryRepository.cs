@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
- public class CategoryRepository : Interfaces.IRepository<Sliders>, IDisposable
+ public class CategoryRepository : Interfaces.IRepository<Category>, IDisposable
   {
     private DBEntityContext context;
     public CategoryRepository(DBEntityContext context)
@@ -46,28 +46,28 @@ namespace Repository
       GC.SuppressFinalize(this);
     }
 
-    public IEnumerable<Sliders> Filter(Sliders t)
+    public IEnumerable<Category> Filter(Category t)
     {
       throw new NotImplementedException();
     }
 
-    public IEnumerable<Sliders> GetAll()
+    public IEnumerable<Category> GetAll()
     {
       return context.Categorys.ToList();
     }
 
-    public Sliders GetById(int id)
+    public Category GetById(int id)
     {
       return context.Categorys.Where(s => s.CategoryId == id).SingleOrDefault();
     }
 
-    public int Insert(Sliders t)
+    public int Insert(Category t)
     {
       context.Categorys.Add(t);
       return context.SaveChanges();
     }
 
-    public IEnumerable<Sliders> Search(string searchString)
+    public IEnumerable<Category> Search(string searchString)
     {
       if (!string.IsNullOrEmpty(searchString))
       {
@@ -76,7 +76,7 @@ namespace Repository
       return context.Categorys.ToList();
     }
 
-    public int Update(Sliders t)
+    public int Update(Category t)
     {
       context.Entry(t).State = EntityState.Modified;
       return context.SaveChanges();
