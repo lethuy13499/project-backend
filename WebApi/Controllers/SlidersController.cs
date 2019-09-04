@@ -60,15 +60,15 @@ namespace WebApi.Controllers
     }
     [HttpPost]
     //[ValidateSSID(ActionId = 53)]
-    public string Post([FromBody]object value)
+    public string Post([FromBody]Sliders value)
     {
       ResultObject result = new ResultObject();
       try
       {
         if (value != null)
         {
-          var user = JsonConvert.DeserializeObject<Sliders>(value.ToString());
-          result.Success = service.Insert(user);
+          var slide = JsonConvert.DeserializeObject<Sliders>(value.ToString());
+          result.Success = service.Insert(slide);
           return JsonConvert.SerializeObject(result);
         }
       }

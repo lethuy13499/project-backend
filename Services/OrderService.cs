@@ -53,5 +53,11 @@ namespace Services
     {
       return repository.Update(t);
     }
-  }
+    public IEnumerable<OrderDetail> GetDetail(int id)
+     {
+            return repository.GetDetail(id);
+
+    }
+
+    }
 }

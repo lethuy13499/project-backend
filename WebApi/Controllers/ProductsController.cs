@@ -60,15 +60,15 @@ namespace WebApi.Controllers
     }
     [HttpPost]
     //[ValidateSSID(ActionId = 53)]
-    public string Post([FromBody]object value)
+    public string Post(Product value)
     {
       ResultObject result = new ResultObject();
       try
       {
         if (value != null)
         {
-          var question = JsonConvert.DeserializeObject<Product>(value.ToString());
-          result.Success = service.Insert(question);
+          var product = JsonConvert.DeserializeObject<Product>(value.ToString());
+          result.Success = service.Insert(product);
           return JsonConvert.SerializeObject(result);
         }
       }
@@ -82,16 +82,16 @@ namespace WebApi.Controllers
     }
     [HttpPut]
     //[ValidateSSID(ActionId = 51)]
-    public string Put(int id, [FromBody]object value)
+    public string Put(int id, [FromBody] Product value)
     {
       ResultObject result = new ResultObject();
       try
       {
         if (value != null)
         {
-          var category = JsonConvert.DeserializeObject<Product>(value.ToString().Trim());
-          category.CategoryId = id;
-          result.Success = service.Update(category);
+          var product = JsonConvert.DeserializeObject<Product>(value.ToString().Trim());
+           product.ProductId = id;
+          result.Success = service.Update(product);
           return JsonConvert.SerializeObject(result);
         }
 

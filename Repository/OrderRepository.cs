@@ -62,8 +62,8 @@ namespace Repository
 
     public IEnumerable<OrderDetail> GetDetail(int id)
     {
-      //return context.OrderDetails.Where(s => s.OrderId == id).SingleOrDefault();
-      throw new NotImplementedException();
+      return context.OrderDetails.Where(s => s.OrderId == id);
+     
     }
     public int Insert(Orders t)
     {

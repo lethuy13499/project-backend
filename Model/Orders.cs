@@ -20,5 +20,6 @@ namespace Model
         [ForeignKey("User")]
         public int UserId { get; set; }
         public virtual ICollection<User> User { get; set; }
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

@@ -10,14 +10,14 @@ namespace Model
 {
     public class OrderDetail
     {
-        [Key]
-        public int OrderDetailId { get; set; }
         public double UnitCost { get; set; }
         public int ItemCount { get; set; }
         public double Subtotal { get; set; }
         [ForeignKey("Product")]
+        [Column(Order = 0), Key]
         public int ProductId { get; set; }
         [ForeignKey("Orders")]
+        [Column(Order = 1), Key]
         public int OrderId { get; set; }
         public virtual ICollection<Product> Product { get; set; }
         public virtual ICollection<Orders> Orders { get; set; }
