@@ -73,6 +73,7 @@
     <Compile Include="Commons\Encryptor.cs" />
     <Compile Include="Interfaces\IGroupRepository.cs" />
     <Compile Include="Interfaces\IOrderRepository.cs" />
+    <Compile Include="OrderDetailRepository.cs" />
     <Compile Include="OrderRepository.cs" />
     <Compile Include="ProductRepository.cs" />
     <Compile Include="RoleActionRepository.cs" />
