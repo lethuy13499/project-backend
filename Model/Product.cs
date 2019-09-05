@@ -25,6 +25,6 @@ namespace Model
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
         public virtual ICollection<User> User { get; set; }
-        public virtual Sliders Category { get; set; }
+        public virtual Category Category { get; set; }
     }
 }
