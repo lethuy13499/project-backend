@@ -17,8 +17,8 @@ namespace Model
         public string Slogan { get; set; }
         public string Image { get; set; }
         public DateTime? CreatedDate { get; set; }
-        [ForeignKey("User")]
-        public int UserId { get; set; }
-        public virtual ICollection<User> User { get; set; }
+        public string CreateBy { get; set; }
+    
+        //public virtual ICollection<User> User { get; set; }
     }
 }

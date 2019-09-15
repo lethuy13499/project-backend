@@ -58,3 +58,25 @@ C:\Users\Lab06\Desktop\code\project-backend\Repository\bin\Debug\EntityFramework
 C:\Users\Lab06\Desktop\code\project-backend\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 C:\Users\Lab06\Desktop\code\project-backend\Repository\obj\Debug\Repository.dll
 C:\Users\Lab06\Desktop\code\project-backend\Repository\obj\Debug\Repository.pdb
+D:\source code\project-backend\Repository\bin\Debug\Repository.dll.config
+D:\source code\project-backend\Repository\bin\Debug\Repository.dll
+D:\source code\project-backend\Repository\bin\Debug\Repository.pdb
+D:\source code\project-backend\Repository\bin\Debug\DataAccessLayer.dll
+D:\source code\project-backend\Repository\bin\Debug\DocumentFormat.OpenXml.dll
+D:\source code\project-backend\Repository\bin\Debug\EntityFramework.dll
+D:\source code\project-backend\Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\source code\project-backend\Repository\bin\Debug\ExporterObjects.dll
+D:\source code\project-backend\Repository\bin\Debug\ExportImplementation.dll
+D:\source code\project-backend\Repository\bin\Debug\itextsharp.dll
+D:\source code\project-backend\Repository\bin\Debug\Model.dll
+D:\source code\project-backend\Repository\bin\Debug\Xamasoft.JsonClassGenerator.dll
+D:\source code\project-backend\Repository\bin\Debug\DataAccessLayer.pdb
+D:\source code\project-backend\Repository\bin\Debug\Model.pdb
+D:\source code\project-backend\Repository\bin\Debug\Model.dll.config
+D:\source code\project-backend\Repository\bin\Debug\EntityFramework.xml
+D:\source code\project-backend\Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\source code\project-backend\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+D:\source code\project-backend\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+D:\source code\project-backend\Repository\obj\Debug\Repository.csproj.CopyComplete
+D:\source code\project-backend\Repository\obj\Debug\Repository.dll
+D:\source code\project-backend\Repository\obj\Debug\Repository.pdb

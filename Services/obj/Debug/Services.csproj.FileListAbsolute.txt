@@ -74,3 +74,31 @@ C:\Users\Lab06\Desktop\code\project-backend\Services\bin\Debug\System.Web.Http.W
 C:\Users\Lab06\Desktop\code\project-backend\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
 C:\Users\Lab06\Desktop\code\project-backend\Services\obj\Debug\Services.dll
 C:\Users\Lab06\Desktop\code\project-backend\Services\obj\Debug\Services.pdb
+D:\source code\project-backend\Services\bin\Debug\Services.dll.config
+D:\source code\project-backend\Services\bin\Debug\Services.dll
+D:\source code\project-backend\Services\bin\Debug\Services.pdb
+D:\source code\project-backend\Services\bin\Debug\DataAccessLayer.dll
+D:\source code\project-backend\Services\bin\Debug\EntityFramework.dll
+D:\source code\project-backend\Services\bin\Debug\EntityFramework.SqlServer.dll
+D:\source code\project-backend\Services\bin\Debug\Model.dll
+D:\source code\project-backend\Services\bin\Debug\Newtonsoft.Json.dll
+D:\source code\project-backend\Services\bin\Debug\Repository.dll
+D:\source code\project-backend\Services\bin\Debug\System.Net.Http.Formatting.dll
+D:\source code\project-backend\Services\bin\Debug\System.Web.Http.dll
+D:\source code\project-backend\Services\bin\Debug\System.Web.Http.WebHost.dll
+D:\source code\project-backend\Services\bin\Debug\DataAccessLayer.pdb
+D:\source code\project-backend\Services\bin\Debug\Model.pdb
+D:\source code\project-backend\Services\bin\Debug\Model.dll.config
+D:\source code\project-backend\Services\bin\Debug\Repository.pdb
+D:\source code\project-backend\Services\bin\Debug\Repository.dll.config
+D:\source code\project-backend\Services\bin\Debug\EntityFramework.xml
+D:\source code\project-backend\Services\bin\Debug\EntityFramework.SqlServer.xml
+D:\source code\project-backend\Services\bin\Debug\Newtonsoft.Json.xml
+D:\source code\project-backend\Services\bin\Debug\System.Net.Http.Formatting.xml
+D:\source code\project-backend\Services\bin\Debug\System.Web.Http.xml
+D:\source code\project-backend\Services\bin\Debug\System.Web.Http.WebHost.xml
+D:\source code\project-backend\Services\obj\Debug\Services.csprojAssemblyReference.cache
+D:\source code\project-backend\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+D:\source code\project-backend\Services\obj\Debug\Services.csproj.CopyComplete
+D:\source code\project-backend\Services\obj\Debug\Services.dll
+D:\source code\project-backend\Services\obj\Debug\Services.pdb

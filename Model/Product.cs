@@ -20,11 +20,12 @@ namespace Model
         public int Quantity { get; set; }
         public double Price { get; set; }
         public string Size { get; set; }
-        [ForeignKey("User")]
-        public int UserId { get; set; }
+        public string createBy { get; set; }
+     
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
-        public virtual ICollection<User> User { get; set; }
+      
+        //public virtual ICollection<User> User { get; set; }
         public virtual Category Category { get; set; }
     }
 }

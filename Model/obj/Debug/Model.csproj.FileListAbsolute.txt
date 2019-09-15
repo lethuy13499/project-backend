@@ -53,3 +53,23 @@ C:\Users\Lab06\Desktop\code\project-backend\Model\bin\Debug\System.Web.Http.WebH
 C:\Users\Lab06\Desktop\code\project-backend\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 C:\Users\Lab06\Desktop\code\project-backend\Model\obj\Debug\Model.dll
 C:\Users\Lab06\Desktop\code\project-backend\Model\obj\Debug\Model.pdb
+D:\source code\project-backend\Model\bin\Debug\Model.dll.config
+D:\source code\project-backend\Model\bin\Debug\Model.dll
+D:\source code\project-backend\Model\bin\Debug\Model.pdb
+D:\source code\project-backend\Model\bin\Debug\EntityFramework.dll
+D:\source code\project-backend\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\source code\project-backend\Model\bin\Debug\Newtonsoft.Json.dll
+D:\source code\project-backend\Model\bin\Debug\System.Net.Http.Formatting.dll
+D:\source code\project-backend\Model\bin\Debug\System.Web.Http.dll
+D:\source code\project-backend\Model\bin\Debug\System.Web.Http.WebHost.dll
+D:\source code\project-backend\Model\bin\Debug\EntityFramework.xml
+D:\source code\project-backend\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\source code\project-backend\Model\bin\Debug\Newtonsoft.Json.xml
+D:\source code\project-backend\Model\bin\Debug\System.Net.Http.Formatting.xml
+D:\source code\project-backend\Model\bin\Debug\System.Web.Http.xml
+D:\source code\project-backend\Model\bin\Debug\System.Web.Http.WebHost.xml
+D:\source code\project-backend\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\source code\project-backend\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\source code\project-backend\Model\obj\Debug\Model.csproj.CopyComplete
+D:\source code\project-backend\Model\obj\Debug\Model.dll
+D:\source code\project-backend\Model\obj\Debug\Model.pdb

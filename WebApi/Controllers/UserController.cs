@@ -71,7 +71,7 @@ namespace WebApi.Controllers
         [HttpPost]
        // [ValidateSSID(ActionId = 67)]
         //Add user method
-        public string AddUser([FromBody] User value)
+        public string AddUser([FromBody] object value)
         {
             ResultObject result = new ResultObject();
             var jsonSetting = new JsonSerializerSettings

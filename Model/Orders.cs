@@ -16,10 +16,10 @@ namespace Model
         public DateTime? DateOfOrder { get; set; }
         public string Adress { get; set; }
         public string PaymentStatus { get; set; }
+        public string createBy { get; set; }
         public bool Status { get; set; }
-        [ForeignKey("User")]
-        public int UserId { get; set; }
-        public virtual ICollection<User> User { get; set; }
+      
+       // public virtual ICollection<User> User { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

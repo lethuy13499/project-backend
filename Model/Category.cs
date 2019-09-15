@@ -18,8 +18,9 @@ namespace Model
         public string Description { get; set; }
         public bool Status { get; set; }
         public DateTime? CreatedDate { get; set; }
-        [ForeignKey("User")]
-        public int UserId { get; set; }
-        public virtual User User { get; set; }
+        public string CreateBy { get; set; }
+        //[ForeignKey("User")]
+      
+        public User User { get; set; }
     }
 }

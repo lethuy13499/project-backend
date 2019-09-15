@@ -53,8 +53,8 @@ namespace Repository
             user.Role = context.Roles.Where(s => s.RoleId == user.RoleId).SingleOrDefault();
             context.Users.Add(new User()
             {
-                UserName = user.UserName,
                 RoleId = user.RoleId,
+                UserName = user.UserName,
                 Password = Encryptor.MD5Hash(user.Password),
                 CreatedDate = DateTime.Now,
                 FullName = user.FullName,

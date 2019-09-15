@@ -37,7 +37,7 @@ namespace Model
         public string Avatar { get; set; }
         public bool Status { get; set; }
         public  ICollection<UserGroup> UserGroups { get; set; }
-        public virtual Role Role { get; set; }
+        public  Role Role { get; set; }
         
     }
 }
