@@ -455,6 +455,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="image\product\" />
+    <Folder Include="image\slider\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Providers\" />
   </ItemGroup>

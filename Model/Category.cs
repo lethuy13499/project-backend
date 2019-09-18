@@ -19,8 +19,6 @@ namespace Model
         public bool Status { get; set; }
         public DateTime? CreatedDate { get; set; }
         public string CreateBy { get; set; }
-        //[ForeignKey("User")]
-      
-        public User User { get; set; }
+       
     }
 }
